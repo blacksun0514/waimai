@@ -27,7 +27,7 @@ import java.util.Map;
 @Slf4j
 public class UserController {
     @Autowired
-    private UserService userservice;
+    private UserService userService;
     @Autowired
     private JwtProperties jwtProperties;
 
@@ -42,7 +42,7 @@ public class UserController {
         log.info("微信登录，参数：{}", userLoginDTO);
 
         //微信登录
-        User user = userservice.wxLogin(userLoginDTO);
+        User user = userService.wxLogin(userLoginDTO);
 
         //为微信用户生成jwt令牌
         Map<String, Object> claims = new HashMap<>();
