@@ -5,21 +5,21 @@ sky:
     port: 3306
     database: sky_take_out
     username: root
-    password: 123456
+    password: ##
 
   alioss:
     endpoint: oss-cn-hangzhou.aliyuncs.com
-    access-key-id: LTAI5tGk1Y98DSEkTfoJpQff
-    access-key-secret: wdj5AyHFCUQ0I45R6f2JZO58PijABn
+    access-key-id: ####
+    access-key-secret: ####
     bucket-name: sky-take-out
 
   wechat:
-    appid: wxdcab4df995f8973b
-    secret: 67790f035feeb7ab8984b5a5a7346c5f
+    appid: ###
+    secret: ###
     mchid: 1561414331
-    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+    mchSerialNo: ###
     privateKeyFilePath: D:\apiclient_key.pem
-    apiV3Key: CZBK51236435wxpay435434323FFDuv3
+    apiV3Key: ###
     weChatPayCertFilePath: D:\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
     notifyUrl: https://www.weixin.qq.com/wxpay/pay.php
     refundNotifyUrl: https://www.weixin.qq.com/wxpay/pay.php
